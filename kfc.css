@@ -1,0 +1,86 @@
+.order-start {
+  height: 4rem;
+}
+.order-start button {
+  border-radius: 6em;
+  background-color: rgb(228 0 43);
+  border: none;
+  color: white;
+}
+#ordering {
+  padding-top: 2%;
+  box-sizing: border-box;
+}
+.sign_up {
+  text-decoration: none;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 55px;
+}
+
+h1:after {
+  border-bottom: 1px solid;
+}
+.pastorder-container {
+  background: #f8f7f5;
+  display: flex;
+}
+.pastorder-left-container {
+  width: 30%;
+  margin-left: 13%;
+}
+.pastorder-greeting-heading {
+  font-family: "National 2 Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 58px;
+  text-transform: uppercase;
+  color: #202124;
+  margin-top: 29.71px;
+  margin-bottom: 30px;
+}
+.pastorder-my-account-text {
+  font-family: "National 2 Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #202124;
+  cursor: pointer;
+  padding-bottom: 10%;
+}
+
+.row {
+  margin-top: 10px;
+}
+.card {
+  cursor: pointer;
+  border: none;
+}
+.card img {
+  height: 191.27px;
+  transform: translateY(-50px);
+  border-radius: 15px;
+  z-index: 1;
+  border: none;
+}
+.card .card-body {
+  visibility: hidden;
+  transform: translateY(-150px);
+  height: opx;
+  border: none;
+}
+.card:hover .card-body {
+  visibility: visible;
+  transform: translateY(-50px);
+  transition: 0.5s;
+  border: none;
+}
+.h2 {
+  color: red;
+}

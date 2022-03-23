@@ -1,0 +1,44 @@
+.forms {
+  width: 60%;
+  margin: 0px auto;
+  height: 450px;
+}
+.account {
+  font-size: 18px;
+  margin: 20px auto;
+  width: fit-content;
+}
+.sign {
+  text-decoration: none;
+}
+.login {
+  font-weight: bold;
+  margin: 0px auto;
+  width: fit-content;
+}
+.input input {
+  width: 100%;
+  height: 40px;
+}
+.form-label {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.input input:hover {
+  border-color: black;
+}
+.button {
+  margin-top: 100px;
+  display: flex;
+}
+.forgotdiv {
+  width: 50%;
+  font-family: "SqMarket", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+}
+.forgot {
+  text-decoration: none;
+}
+.btn {
+  width: 50%;
+}

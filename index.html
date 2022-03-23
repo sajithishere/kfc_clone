@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link class="rounded-circle" rel="icon" href="data:image/png;base64,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" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="kfc.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid text-end my-auto">
+            
+            <img  style="margin: 30px 82px"src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" alt="KFC LOGO">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item">
+                <a class="nav-link active fw-bold "style="margin-left: -5px;" aria-current="page" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold"style=""href="#">Deal</a>
+              </li>
+            </ul>
+            <p class="text fw-bold ms-4 mb-2 px-2" style="border-right: 1px solid; cursor: pointer; "><a href="login.html" class="text-dark sign_up">Sign Up</a></p>
+            <span class="headerPrice px-2 " style="cursor: pointer;">₹0</span>
+            <img style="width: 51px;height: 51px; cursor: pointer;"
+            src="//images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg" alt="" class="navRightIcons ">
+          </div>
+        </div>
+    
+    
+      </nav>
+      <div class="container-fluid bg-black text-center text-align-center" id="ordering">
+        <div class="order-start">
+        <strong>  <span class="text-white  ">LET'S ORDER FOR DELIVERY</span></strong>
+          <span><button type="button">Start Order</button></span>
+          </div>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+           <div class="carousel-item active">
+            <img src="https://images.ctfassets.net/wtodlh47qxpt/jxsYEVgrAX6liDnW8gxdW/17c8a5387706c5b3af41df18ab39361d/Express_pick_up_app_banner_1440x396.jpg" class="d-block w-100" alt="...">
+           </div> 
+           <div class="carousel-item">
+            <img src="https://images.ctfassets.net/wtodlh47qxpt/4w2NU51eNqAlF0S4k3YLTB/0872e046c202005f49e6c94489c8ce40/4Value_Burger_1440x396px.png" class="d-block w-100" alt="...">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       
+      <div class="pastorder-container d-flex">
+        <div class="pastorder-left-container">
+          
+          <div  class="pastorder-greeting-heading">WELCOME TO KFC!</div>
+          <div class="pastorder-my-account-text">My Account<i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <h1>
+              BROWSE CATEGORIES
+            </h1>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-3">
+          <div class="card text-center">
+          <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT3131.jpg?ver=5.29" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BUCKET MEALS</h5><br>
+            <button type="button"class="btn btn-primary">Order Now</button>
+          </div>
+        </div>
+      </div>
+        <div class="col-md-3">
+          <div class="card text-center">
+          <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT3311.jpg?ver=5.29" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TRENDING</h5><br>
+            <button type="button"class="btn btn-primary">Order Now</button>
+            
+          </div>
+        </div>
+      </div>
+        <div class="col-md-3">
+          <div class="card text-center" >
+          <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT3132.jpg?ver=5.29" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BURGERS</h5><br>
+            <button type="button"class="btn btn-primary">Order Now</button>
+            
+          </div>
+        </div>
+      </div>
+        <div class="col-md-3">
+          <div class="card text-center" >
+          <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT3133.jpg?ver=5.29" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">RICE BOWLZ</h5><br>
+            <button type="button"class="btn btn-primary">Order Now</button>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card  text-center">
+            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT3134.jpg?ver=5.29" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SNACKS</h5><br>
+              <button type="button"class="btn btn-primary">Order Now</button>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card  text-center">
+            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/A-33116-0.jpg?ver=5.59" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SUPER SNACKER COMBO</h5><br>
+              <button type="button"class="btn btn-primary">Order Now</button>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center">
+            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/A-33202-0.jpg?ver=5.59" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MINGLE BUCKET MEAL</h5><br>
+              <button type="button"class="btn btn-primary">Order Now</button>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card  text-center">
+            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT3135.jpg?ver=5.29" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BEVERAGES</h5><br>
+              <button type="button"class="btn btn-primary">Order Now</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        
+          <h1> OFFERS AND DEALS </h1>  
+      </div>
+      <br>  
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card text-center">
+        <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/ADDCHK99.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="color: red;">ADD 2 PC HOT AND CRISPY</h5><br>
+          <P>ADD 2 PC HOT N CRISPY CHICKEN @ JUST RS 99 ON MIN CART VALUE OF RS 499 OR MORE. APPLICABLE ON 2ND & 3RD ORDER FOR SIGNED IN USER.</P>
+          <button type="button"class="btn btn-danger">Radeem</button>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-3">
+        <div class="card text-center">
+        <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/BIGSAVE.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="color: red;">UP TO RS 100 OFF</h5><br>
+          <p>UPTO RS 100 OFF ON MIN CART VALUE OF RS 599 OR MORE . APPLICABLE ON 4TH ORDER ONWARDS FOR SIGNED IN USER.</p>
+          <button type="button"class="btn btn-danger">Radeem</button>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-3">
+        <div class="card text-center">
+        <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/CHKZINGER.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="color: red;">ONE PC FREE CHIKKEN ZIGER</h5><br>
+          <P>1 PC FREE CHICKEN ZINGER ON A CART VALUE OF 399 OR ABOVE ON FIRST ORDER. ONLY FOR REGISTERED USERS.</P>
+          <button type="button"class="btn btn-danger">Radeem</button>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-3">
+        <div class="card text-center">
+        <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/VEGZINGER.jpg" class="card-img-top" alt="...">
+        <div class="card-body ">
+          <h5 class="card-title " style="color: red;">FREE VEG ZINGER</h5><br>
+          <P>1 PC FREE VEG ZINGER ON A CART VALUE OF 399 OR ABOVE ON FIRST ORDER. ONLY FOR REGISTERED USERS</P>
+          <button type="button"class="btn btn-danger">Radeem</button>
+          
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
